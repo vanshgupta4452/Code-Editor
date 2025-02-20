@@ -1,0 +1,52 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(219, 224, 246);
+  text-align: center;
+}
+
+.but-cont{
+  margin: 2rem;
+}
+.button{
+  margin: 1rem;
+}
+.searchbar{
+   width: 60%;
+
+}
+.textarea{
+  width: 50%;
+  
+  
+}
+.pastelist{
+  margin: 2rem;
+}
+.paste{
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-floating>.form-control, .form-floating>.form-control-plaintext, .form-floating>.form-select {
+  height: calc(30.5rem + calc(var(--bs-border-width)* 2));
+  min-height: calc(3.5rem + calc(var(--bs-border-width)* 2));
+  line-height: 1.25;
+}
+.home{
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  width: 60%;
+}
+.view{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
